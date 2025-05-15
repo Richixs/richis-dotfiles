@@ -1,0 +1,20 @@
+{
+  "layer": "top",
+  "height": 20,
+  "spacing": 4,
+  "mod": "dock",
+  "reload_styke_on_change": true,
+
+  "modules-left": [
+
+  ],
+
+  "modules-center": [
+
+  ],
+
+  "modules-right": [
+
+  ]
+
+}
