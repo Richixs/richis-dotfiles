@@ -40,6 +40,9 @@
     "pulseaudio",
     "pulseaudio#microphone",
     "custom/r_end",
+    "custom/l_end",
+    "privacy",
+    "custom/r_end",
     "custom/padd"
   ],
   
@@ -193,6 +196,24 @@
     "on-scroll-down": "volumecontrol.sh -i d",
     "tooltip-format": "{format_source} {source_desc} // {source_volume}%",
     "scroll-step": 5
+  },
+
+  "privacy": {
+    "icon-size": 12,
+    "icon-spacing": 5,
+    "transition-duration": 250,
+    "modules": [
+      {
+        "type": "screenshare",
+        "tooltip": true,
+        "tooltip-icon-size": 24
+      },
+      {
+        "type": "audio-in",
+        "tooltip": true,
+        "tooltip-icon-size": 24
+      }
+    ]
   },
 
   // modules for padding \\
