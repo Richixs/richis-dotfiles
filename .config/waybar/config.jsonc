@@ -32,6 +32,7 @@
     "custom/l_end",
     "cpu",
     "memory",
+    "custom/cpuinfo",
     "custom/r_end",
     "custom/padd"
   ],
@@ -39,7 +40,8 @@
   // modules \\
 
   "custom/archlogo": {
-    "format": " "
+    "format": " ",
+    "tooltip": false
   },
 
   "hyprland/workspaces": {
@@ -117,6 +119,16 @@
     "max-length": 10,
     "tooltip": true,
     "tooltip-format": "󰾆  {percentage}%\n  {used:0.1f}/{total:0.1f}GB"
+  },
+
+  "custom/cpuinfo": {
+    "exec": "cpuinfo.sh",
+    "return-type": "json",
+    "format": "{}",
+    "rotate": 0,
+    "interval": 5,
+    "tooltip": true,
+    "max-length": 1000
   },
 
   // modules for padding \\
