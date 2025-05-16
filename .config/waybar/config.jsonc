@@ -30,6 +30,7 @@
   "modules-right": [
     "custom/padd",
     "custom/l_end",
+    "cpu",
     "custom/r_end",
     "custom/padd"
   ],
@@ -89,6 +90,14 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
+  },
+
+  "cpu": {
+    "interval": 10,
+    "format": "  {usage}%",
+    "rotate": 0,
+    "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
   },
 
   // modules for padding \\
