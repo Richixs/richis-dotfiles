@@ -42,6 +42,7 @@
     "custom/r_end",
     "custom/l_end",
     "privacy",
+    "tray",
     "custom/r_end",
     "custom/padd"
   ],
@@ -214,6 +215,12 @@
         "tooltip-icon-size": 24
       }
     ]
+  },
+
+  "tray": {
+    "icon-size": 12,
+    "rotate": 0,
+    "spacing": 5
   },
 
   // modules for padding \\
