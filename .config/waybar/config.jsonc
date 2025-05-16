@@ -1,20 +1,50 @@
 {
+  // header \\
+
   "layer": "top",
   "height": 20,
   "spacing": 4,
   "mod": "dock",
   "reload_styke_on_change": true,
 
+  // positions \\
+
   "modules-left": [
 
   ],
 
   "modules-center": [
-
+    "clock"
   ],
 
   "modules-right": [
 
-  ]
+  ],
+  
+  // modules \\
 
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "rotate": 0,
+    "format-alt": "{:%R 󰃭 %d·%m·%y}",
+    "tooltip-format": "<span>{calendar}</span>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "on-scroll": 1,
+      "on-click-right": "mode",
+      "format": {
+      "months": "<span color='#ffead3'><b>{}</b></span>",
+      "weekdays": "<span color='#875fff'><b>{}</b></span>",
+      "today": "<span color='#8787ff'><b>{}</b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  }
 }
