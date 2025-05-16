@@ -12,6 +12,7 @@
   "modules-left": [
     "custom/padd",
     "custom/l_end",
+    "custom/archlogo",
     "hyprland/workspaces",
     "custom/r_end",
     "custom/padd"
@@ -33,6 +34,10 @@
   ],
   
   // modules \\
+
+  "custom/archlogo": {
+    "format": ""
+  },
 
   "hyprland/workspaces": {
     "disable-scroll": true,
