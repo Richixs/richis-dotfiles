@@ -14,6 +14,7 @@
     "custom/l_end",
     "custom/archlogo",
     "hyprland/workspaces",
+    "custom/spotify",
     "custom/r_end",
     "custom/padd"
   ],
@@ -50,6 +51,19 @@
     "on-scroll-down": "hyprctl dispatch workspace +1",
     "persistent-workspaces": {
     }
+  },
+
+  "custom/spotify": {
+    "exec": "mediaplayer.py --player spotify",
+    "format": "{}",
+    "rotate": 0,
+    "return-type": "json",
+    "on-click": "playerctl play-pause --player spotify",
+    "on-click-right": "playerctl next --player spotify",
+    "on-click-middle": "playerctl previous --player spotify",
+    "on-scroll-up": "volumecontrol.sh -p spotify i",
+    "on-scroll-down": "volumecontrol.sh -p spotify d",
+    "tooltip": true
   },
 
   "clock": {
