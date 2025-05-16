@@ -10,15 +10,26 @@
   // positions \\
 
   "modules-left": [
-    "hyprland/workspaces"
+    "custom/padd",
+    "custom/l_end",
+    "hyprland/workspaces",
+    "custom/r_end",
+    "custom/padd"
   ],
 
   "modules-center": [
-    "clock"
+    "custom/padd",
+    "custom/l_end",
+    "clock",
+    "custom/r_end",
+    "custom/padd"
   ],
 
   "modules-right": [
-
+    "custom/padd",
+    "custom/l_end",
+    "custom/r_end",
+    "custom/padd"
   ],
   
   // modules \\
@@ -59,5 +70,25 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
+  },
+
+  // modules for padding \\
+  
+  "custom/l_end": {
+    "format": " ",
+    "interval" : "once",
+    "tooltip": false
+  },
+
+  "custom/r_end": {
+    "format": " ",
+    "interval" : "once",
+    "tooltip": false
+  },
+
+  "custom/padd": {
+    "format": "  ",
+    "interval" : "once",
+    "tooltip": false
   }
 }
