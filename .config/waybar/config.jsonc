@@ -10,7 +10,7 @@
   // positions \\
 
   "modules-left": [
-
+    "hyprland/workspaces"
   ],
 
   "modules-center": [
@@ -22,6 +22,19 @@
   ],
   
   // modules \\
+
+  "hyprland/workspaces": {
+        "disable-scroll": true,
+        "rotate": 0,
+        "all-outputs": true,
+        "active-only": false,
+        "on-click": "activate",
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "persistent-workspaces": {
+        }
+    },
 
   "clock": {
     "format": "{:%I:%M %p}",
