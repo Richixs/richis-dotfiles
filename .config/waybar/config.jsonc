@@ -43,6 +43,7 @@
     "custom/l_end",
     "privacy",
     "tray",
+    "battery",
     "custom/r_end",
     "custom/padd"
   ],
@@ -221,6 +222,20 @@
     "icon-size": 12,
     "rotate": 0,
     "spacing": 5
+  },
+
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "rotate": 0,
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
   },
 
   // modules for padding \\
