@@ -3,7 +3,7 @@
 
   "layer": "top",
   "height": 20,
-  "spacing": 4,
+  "spacing": 0,
   "mod": "dock",
   "reload_styke_on_change": true,
 
