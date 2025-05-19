@@ -13,8 +13,8 @@ plugins=(git)
 
 # source
 source ~/.powerlevel10k/powerlevel10k.zsh-theme
-source ~/.oh-my-zsh/oh-my-zsh.sh
-source ~/.zsh-plugins/sudo/sudo.plugin.zsh
+source ~/.zsh-plugins/oh-my-zsh/oh-my-zsh.sh
+source ~/.zsh-plugins/zsh-sudo/sudo.plugin.zsh
 source ~/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
