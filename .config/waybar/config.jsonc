@@ -2,7 +2,7 @@
   // header \\
 
   "layer": "top",
-  "height": 20,
+  "height": 21,
   "spacing": 0,
   "mod": "dock",
   "reload_styke_on_change": true,
